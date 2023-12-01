@@ -43,9 +43,6 @@ app.use(express.static(path.join(__dirname+'/dist/FrontEnd')));
 
 
 //! dont delete this code. it connects the front end file.
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname + '/dist/Frontend/index.html'));
-});
 
 // Task1: initiate app and run server at 3000
 
